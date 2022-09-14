@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Session 5 Activity</title>
+	</head>
+	<body>
+
+		<header>
+			<h1>Zuitt IT Solutions</h1>
+		</header>
+
+		<!-- Section for Products Offered -->
+		<section>
+			<h2>Products Offered</h2>
+
+			<!-- Table of Products Offered -->
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Package</th>
+						<th>Price</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Basic</td>
+						<td>&#8369; 500.00</td>
+						<td>Package includes a fully functional website with desired specifications.</td>
+					</tr>
+					
+					<tr>
+						<td>Premium</td>
+						<td>&#8369; 1000.00</td>
+						<td>Enjoy all the benefits of the basic package and also includes site support and maintenance.</td>
+					</tr>
+				</tbody>
+
+				<tfoot align="center">
+					<tr>
+						<td colspan="3"><strong>Additional features after initial project is inclusive of charges</strong></td>
+					</tr>
+					
+				</tfoot>
+			</table>
+		</section>
+
+		<!-- Section for Contact Form -->
+		<section>
+			<h2>Contact Form</h2>
+
+			<!-- Contact Form -->
+			<form>
+
+				<label for="first_name">First Name:</label>
+				<br>
+				<input type="text" id="first_name" required autocomplete>
+				<br>
+
+				<label for="last_name">Last Name:</label>
+				<br>
+				<input type="text" id="last_name" required autocomplete>
+				<br>
+
+				<label for="email_add">Email:</label>
+				<br>
+				<input type="email" id="email_add" required autocomplete>
+				<br>
+
+				<label for="contact_number">Contact Number:</label>
+				<br>
+				<input type="number" id="contact_number" required autocomplete>
+				<br>
+
+				<label for="service_type">Service Type:</label>
+				<br>
+				<select id="service_type" name="service_type" required autocomplete>
+
+					<option name="service_type"	value="Front End Programming">Front End Programming</option>
+
+					<option name="service_type"	value="Back End Programming">Back End Programming</option>
+					
+				</select>
+				<br>
+
+				<label>Preferred Contact: </label>
+				<br>
+
+				<input type="checkbox" name="pr1" id="role1" value="Email">
+				<label for="role1">Email</label>
+				<br>
+
+				<input type="checkbox" name="pr2" id="role2" value="Phone">
+				<label for="role2">Phone</label>
+				<br>
+
+				<label>Package:</label>
+				<br>
+				<input type="radio" name="package" id="package1" value="Basic" required autocomplete>Basic
+				<br>
+				<input type="radio" name="package" id="package2" value="Premium" required autocomplete>Premium
+				<br>
+
+				<label for="message"
+				>Message</label>
+				<br>
+				<textarea id="message" cols="20" rows="5" required autocomplete>
+				</textarea>
+				<br>
+
+				<input type="submit" name="submit" value="Send Inquiry">
+				<br>
+
+				<input type="reset" name="reset" value="Reset">
+				<br>
+
+			</form>
+		</section>
+
+	</body>
+</html>
